@@ -1,53 +1,12 @@
-.merriweather-light {
-    font-family: "Merriweather", serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .merriweather-regular {
-    font-family: "Merriweather", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .merriweather-bold {
-    font-family: "Merriweather", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .merriweather-black {
-    font-family: "Merriweather", serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  .merriweather-light-italic {
-    font-family: "Merriweather", serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .merriweather-regular-italic {
-    font-family: "Merriweather", serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .merriweather-bold-italic {
-    font-family: "Merriweather", serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  .merriweather-black-italic {
-    font-family: "Merriweather", serif;
-    font-weight: 900;
-    font-style: italic;
-  }
+/* font style */
+
+body {
+  font-family: "Bodoni Moda SC", serif;
+}
 * {
     padding: 0;
     margin: 0;
+
 }
 
   /* banner style */
@@ -104,7 +63,6 @@ text-align: center;
 }
 .section-title-two {
   color: rgb(255, 0, 0);
-font-family: Inter;
 font-size: 88px;
 font-weight: 700;
 line-height: 107px;
@@ -116,7 +74,6 @@ margin: 5px;
 }
 .section-subtitle-two {
   color: rgb(255, 0, 0);
-font-family: Inter;
 font-size: 24px;
 font-weight: 500;
 line-height: 29px;
@@ -127,7 +84,6 @@ margin: 5px;
 }
 .section-maintitle-two{
   color: rgb(7, 2, 17);
-font-family: Inter;
 font-size: 48px;
 font-weight: 700;
 line-height: 58px;
@@ -147,15 +103,14 @@ margin: 5px;
 /* three container style */
 
 .main-container-three {
-  display: flex; 
   max-width: 1350px ;
   height: 600px;
   background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%) , url(./images/Vectorrr.png) ;
   background-repeat: no-repeat; 
   background-position: center; 
-  justify-content: center;
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 .container-three {
   padding: 20px;
@@ -164,7 +119,6 @@ margin: 5px;
 }
 .three-title {
   color: rgb(255, 255, 255);
-font-family: Merriweather;
 font-size: 64px;
 font-weight: 900;
 line-height: 88px;
@@ -176,7 +130,6 @@ margin: 5px;
 }
 .three-subtitle {
   color: rgba(255, 255, 255, 0.8);
-font-family: Inter;
 font-size: 18px;
 font-weight: 400;
 line-height: 30px;
@@ -188,7 +141,6 @@ margin: 5px;
 }
 .three-maintitle {
   color: rgb(255, 255, 255);
-font-family: Inter;
 font-size: 20px;
 font-weight: 700;
 line-height: 24px;

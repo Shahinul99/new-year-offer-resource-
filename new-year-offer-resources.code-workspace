@@ -2,9 +2,12 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "../programming hero/firstmodule"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "new-year-offer-resources"
+		"liveServer.settings.multiRootWorkspaceName": "firstmodule"
 	}
 }
